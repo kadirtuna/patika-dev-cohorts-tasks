@@ -23,7 +23,7 @@ public class Ring {
         System.out.println("Ilk vuracak: " + first.name);
 
         while (f1.health > 0 && f2.health > 0) {
-            System.out.println("======== YENİ ROUND ===========");
+            System.out.println("======== YENI ROUND ===========");
             second.health = first.hit(second);
             if (isWin()) break;
             first.health = second.hit(first);

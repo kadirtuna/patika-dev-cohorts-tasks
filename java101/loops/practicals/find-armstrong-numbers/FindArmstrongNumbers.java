@@ -38,7 +38,7 @@ public class FindArmstrongNumbers {
             digitSum += temp % 10;
             temp /= 10;
         }
-        System.out.println(number + " sayisinin basamak toplamı: " + digitSum);
+        System.out.println(number + " sayisinin basamak toplami: " + digitSum);
 
         input.close();
     }
