@@ -1,0 +1,38 @@
+@startuml University Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+class University {
+}
+
+class Classroom {
+}
+
+class Department {
+}
+
+class Office {
+}
+
+class Employee {
+}
+
+class Professor {
+}
+
+class Clerk {
+}
+
+University "1" *-- "*" Classroom : has
+University "1" *-- "*" Department : has
+University "1" *-- "*" Employee : has
+
+Department "1" *-- "*" Office : has
+
+Employee "*" --> "1" Office : works in
+
+Employee <|-- Professor
+Employee <|-- Clerk
+
+@enduml
