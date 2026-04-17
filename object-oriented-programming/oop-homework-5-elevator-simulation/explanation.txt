@@ -1,0 +1,1 @@
+Simulates a 12-floor building with 5 elevators, passengers, floor controls, and a scheduler managing elevator assignments with a clock-based event logger.

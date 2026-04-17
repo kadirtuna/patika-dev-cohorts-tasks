@@ -1,0 +1,42 @@
+@startuml Flight Management System Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+class Airline {
+    + id: String
+}
+
+class Aircraft {
+    + status: String
+    + requiredPilots: int
+}
+
+class Flight {
+    + id: String
+    + departureAirport: Airport
+    + arrivalAirport: Airport
+    + departureTime: DateTime
+    + arrivalTime: DateTime
+}
+
+class Airport {
+    + id: String
+    + name: String
+}
+
+class Pilot {
+    + experienceLevel: int
+}
+
+Airline "1" *-- "*" Aircraft : owns
+Airline "1" *-- "*" Pilot : employs
+Airline "1" *-- "*" Flight : operates
+
+Flight "*" --> "1" Airport : departs from
+Flight "*" --> "1" Airport : arrives at
+Flight "*" --> "1" Aircraft : uses
+Flight "1" --> "1" Pilot : has pilot
+Flight "1" --> "1" Pilot : has co-pilot
+
+@enduml

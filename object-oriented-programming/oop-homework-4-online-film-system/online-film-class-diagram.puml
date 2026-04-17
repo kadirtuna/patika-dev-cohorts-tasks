@@ -1,0 +1,54 @@
+@startuml Online Film System Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+class Movie {
+    + id: String
+    + title: String
+    + price: double
+    + rentalPrice: double
+    + isAvailable: boolean
+    + listMovies()
+    + sortMovies()
+}
+
+class MovieRequest {
+    + requestedMovie: String
+}
+
+class User {
+    + id: String
+    + name: String
+    + purchaseMovie()
+}
+
+class Subscriber {
+    + credits: double
+    + purchaseCredits()
+    + rentMovie()
+    + purchaseMovie()
+}
+
+class Purchase {
+    + movie: Movie
+    + price: double
+    + date: DateTime
+}
+
+class Rental {
+    + movie: Movie
+    + creditCost: double
+    + date: DateTime
+}
+
+User <|-- Subscriber
+
+User "1" *-- "*" Purchase : makes
+Subscriber "1" *-- "*" Rental : makes
+User "1" --> "*" MovieRequest : requests
+
+Purchase "*" --> "1" Movie : for
+Rental "*" --> "1" Movie : for
+
+@enduml

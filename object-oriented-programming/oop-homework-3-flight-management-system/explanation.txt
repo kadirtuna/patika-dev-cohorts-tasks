@@ -1,0 +1,1 @@
+Models a flight management system with airlines, aircrafts, flights, airports, and pilots including pilot-flight assignments.

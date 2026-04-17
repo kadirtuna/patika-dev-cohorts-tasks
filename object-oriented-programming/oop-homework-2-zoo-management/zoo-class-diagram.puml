@@ -1,0 +1,64 @@
+@startuml Zoo Management Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+abstract class Animal {
+    + name: String
+    + weight: double
+    + age: int
+    + getDosage()
+    + getFeedSchedule()
+}
+
+abstract class Equidae {
+    + getDosage()
+    + getFeedSchedule()
+}
+
+abstract class Felidae {
+    + getDosage()
+    + getFeedSchedule()
+}
+
+abstract class Rodentia {
+    + getDosage()
+    + getFeedSchedule()
+}
+
+class Horse {
+}
+
+class Zebra {
+}
+
+class Donkey {
+}
+
+class Tiger {
+}
+
+class Lion {
+}
+
+class Rat {
+}
+
+class Beaver {
+}
+
+Animal <|-- Equidae
+Animal <|-- Felidae
+Animal <|-- Rodentia
+
+Equidae <|-- Horse
+Equidae <|-- Zebra
+Equidae <|-- Donkey
+
+Felidae <|-- Tiger
+Felidae <|-- Lion
+
+Rodentia <|-- Rat
+Rodentia <|-- Beaver
+
+@enduml

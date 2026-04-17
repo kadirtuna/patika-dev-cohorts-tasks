@@ -1,0 +1,110 @@
+@startuml Elevator Simulation Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+class Building {
+    + totalFloors: int
+}
+
+class Floor {
+    + floorNumber: int
+    + arrivalBell: ArrivalBell
+    + callUpButton: CallButton
+    + callDownButton: CallButton
+}
+
+class Elevator {
+    + id: int
+    + capacity: int
+    + currentFloor: int
+    + door: Door
+    + floorIndicator: FloorIndicator
+    + controlPanel: ControlPanel
+    + move()
+    + stop()
+    + openDoor()
+    + closeDoor()
+}
+
+class Door {
+    + open()
+    + close()
+}
+
+class FloorIndicator {
+    + currentFloor: int
+    + direction: String
+    + update()
+}
+
+class ControlPanel {
+    + emergencyButton: EmergencyButton
+    + doorOpenButton: DoorButton
+    + doorCloseButton: DoorButton
+    + pressDestination()
+    + pressEmergency()
+}
+
+class CallButton {
+    + direction: String
+    + press()
+}
+
+class ArrivalBell {
+    + ring()
+}
+
+class SignalLight {
+    + direction: String
+    + illuminate()
+}
+
+class Passenger {
+    + departureFloor: int
+    + destinationFloor: int
+    + pressCallButton()
+    + pressDestinationButton()
+}
+
+class Scheduler {
+    + assignElevator()
+}
+
+class Simulator {
+    + clock: Clock
+    + randomGenerator: RandomGenerator
+    + run()
+    + logEvent()
+}
+
+class Clock {
+    + currentTime: DateTime
+    + tick()
+}
+
+class RandomGenerator {
+    + generatePassenger()
+    + generateFloor()
+}
+
+Building "1" *-- "*" Floor : has
+Building "1" *-- "5" Elevator : has
+Building "1" *-- "1" Scheduler : uses
+
+Floor "1" *-- "1" ArrivalBell : has
+Floor "1" *-- "*" SignalLight : has
+Floor "1" *-- "*" CallButton : has
+
+Elevator "1" *-- "1" Door : has
+Elevator "1" *-- "1" FloorIndicator : has
+Elevator "1" *-- "1" ControlPanel : has
+
+Simulator "1" *-- "1" Clock : uses
+Simulator "1" *-- "1" RandomGenerator : uses
+Simulator "1" --> "1" Building : simulates
+Simulator "1" *-- "*" Passenger : generates
+
+Scheduler "1" --> "*" Elevator : assigns
+
+@enduml

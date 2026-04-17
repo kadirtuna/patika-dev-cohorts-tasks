@@ -1,0 +1,1 @@
+Models an online movie platform where users can buy movies, subscribers can rent movies using credits, and unavailable movies can be requested.
