@@ -1,0 +1,13 @@
+Project Name: Palindrome Numbers
+
+Project Explanation:
+This program checks whether a user-entered number is a palindrome.
+A palindrome number reads the same forwards and backwards (e.g. 121, 363, 9889).
+It reverses the digits using a loop and compares the result to the original number.
+
+Sample Output:
+Sayi giriniz: 363
+363 bir palindrom sayisidir.
+
+Sayi giriniz: 123
+123 bir palindrom sayisi degildir.

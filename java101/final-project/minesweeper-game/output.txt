@@ -1,0 +1,23 @@
+Project Name: Minesweeper Game
+
+Project Explanation:
+This is a text-based Minesweeper game implemented using 2D arrays inside a MineSweeper class.
+The user defines the board size (minimum 2x2), and mines are randomly placed (total cells / 4).
+On each turn, the player picks a row and column; if it is a mine the game ends, otherwise the number of adjacent mines is revealed.
+The player wins by uncovering all non-mine cells without hitting any mine.
+
+Sample Output:
+Satir sayisini giriniz (min 2): 3
+Sutun sayisini giriniz (min 2): 3
+Mayin Tarlasi Oyununa Hosgeldiniz!
+- - -
+- - -
+- - -
+Satir Giriniz: 0
+Sutun Giriniz: 1
+===========================
+- 2 -
+- - -
+- - -
+...
+Oyunu Kazandiniz!

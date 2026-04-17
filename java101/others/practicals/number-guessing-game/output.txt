@@ -1,0 +1,13 @@
+Project Name: Number Guessing Game
+
+Project Explanation:
+This program generates a random number between 0 and 99 and asks the user to guess it within 5 attempts.
+After each wrong guess, it tells the user whether the secret number is higher or lower.
+Out-of-range inputs are warned once for free; a second invalid input counts as a used attempt.
+
+Sample Output:
+Lutfen tahmininizi giriniz: 50
+50 sayisi, gizli sayidan buyuktur.
+Kalan hakki: 4
+Lutfen tahmininizi giriniz: 25
+Tebrikler, dogru tahmin! Tahmin ettiginiz sayi: 25

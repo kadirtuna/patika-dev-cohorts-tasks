@@ -1,0 +1,14 @@
+Project Name: Calculate Power Of Numbers
+
+Project Explanation:
+This program takes a base and exponent from the user and calculates the power using a recursive method.
+The recursive method multiplies the base by itself exp times, returning 1 when the exponent reaches 0.
+
+Sample Output:
+Taban degerini giriniz: 2
+Us degerini giriniz: 3
+Sonuc: 8
+
+Taban degerini giriniz: 5
+Us degerini giriniz: 3
+Sonuc: 125

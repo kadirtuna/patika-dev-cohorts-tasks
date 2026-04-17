@@ -1,0 +1,10 @@
+Project Name: Calculate Array Average
+
+Project Explanation:
+This program calculates both the arithmetic average and harmonic average of a predefined integer array.
+The arithmetic average is the sum divided by count.
+The harmonic average is calculated as n divided by the sum of (1/element) for each element.
+
+Sample Output:
+Aritmetik Ortalama: 3.0
+Harmonik Ortalama: 2.18978102189781

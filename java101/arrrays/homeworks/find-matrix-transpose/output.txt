@@ -1,0 +1,15 @@
+Project Name: Find Matrix Transpose
+
+Project Explanation:
+This program computes the transpose of a 2D matrix using multi-dimensional arrays.
+Transposing swaps rows and columns so that element at [i][j] moves to [j][i].
+The original matrix and its transpose are both printed to the console.
+
+Sample Output:
+Matris:
+2   3   4
+5   6   4
+Transpoze:
+2   5
+3   6
+4   4

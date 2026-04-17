@@ -1,0 +1,12 @@
+Project Name: Calculate Element Frequency
+
+Project Explanation:
+This program finds how many times each unique element appears in a predefined integer array.
+It iterates through the array, counts occurrences of each unseen element, and prints the frequency.
+A boolean tracking array prevents counting the same element more than once.
+
+Sample Output:
+Tekrar Sayilari:
+10 sayisi 3 kere tekrar edildi.
+20 sayisi 4 kere tekrar edildi.
+5 sayisi 1 kere tekrar edildi.

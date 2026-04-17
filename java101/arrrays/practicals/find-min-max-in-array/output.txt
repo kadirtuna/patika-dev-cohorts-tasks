@@ -1,0 +1,12 @@
+Project Name: Find Min Max In Array
+
+Project Explanation:
+This program finds the minimum and maximum values in a predefined array.
+As a homework extension, it also takes a target number from the user and finds the closest value smaller and closest value larger than the target within the array.
+
+Sample Output:
+Minimum Deger: -778
+Maximum Deger: 788
+Bir sayi giriniz: 5
+Girilen sayidan kucuk en yakin sayi: 2
+Girilen sayidan buyuk en yakin sayi: 12

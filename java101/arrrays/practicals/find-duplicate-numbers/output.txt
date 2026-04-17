@@ -1,0 +1,12 @@
+Project Name: Find Duplicate Numbers
+
+Project Explanation:
+This program finds the duplicate even numbers in a predefined integer array.
+It uses nested loops to compare each even element against the rest of the array.
+When a match is found, it prints the number and moves on to avoid double reporting.
+
+Sample Output:
+Tekrar eden cift sayilar:
+2
+4
+6

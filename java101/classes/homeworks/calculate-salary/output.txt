@@ -1,0 +1,17 @@
+Project Name: Calculate Salary
+
+Project Explanation:
+This project defines an Employee class that calculates tax, bonus, and salary raise for factory workers.
+Tax is 3% if salary exceeds 1000 TL; bonus is 30 TL per extra hour over 40 hours per week.
+Raise is 5%, 10%, or 15% based on years of service (less than 10, less than 20, or 20+ years).
+
+Sample Output:
+Adi: kemal
+Maasi: 2000.0
+Calisma Saati: 45
+Baslangic Yili: 1985
+Vergi: 60.0
+Bonus: 150.0
+Maas Artisi: 300.0
+Vergi ve Bonuslar ile birlikte maas: 2090.0
+Toplam Maas: 2390.0

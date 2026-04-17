@@ -1,0 +1,13 @@
+Project Name: Find Palindromic Words
+
+Project Explanation:
+This program checks if a user-entered word is a palindromic word.
+A palindromic word reads the same forwards and backwards (e.g. kayak, radar, abba).
+It uses two pointers from both ends of the string moving inward to compare characters.
+
+Sample Output:
+Kelime giriniz: kayak
+"kayak" bir palindromik kelimedir.
+
+Kelime giriniz: java
+"java" bir palindromik kelime degildir.

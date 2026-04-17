@@ -1,0 +1,15 @@
+Project Name: Print Letter With Arrays
+
+Project Explanation:
+This program prints the letter B using stars (*) and a 2D string array.
+Rows at index 0, 3, and 6 are fully filled with stars to form the horizontal bars of B.
+The first and last columns of other rows form the vertical sides.
+
+Sample Output:
+ *  *  *  *
+ *        *
+ *        *
+ *  *  *  *
+ *        *
+ *        *
+ *  *  *  *

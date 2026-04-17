@@ -1,0 +1,15 @@
+Project Name: Advanced Calculator
+
+Project Explanation:
+This program is a menu-driven advanced calculator that supports 8 operations: addition, subtraction, multiplication, division, power, factorial, modulo, and rectangle area/perimeter.
+Each operation is implemented as a separate method and invoked via a switch-case loop.
+The program runs continuously until the user selects exit (0).
+
+Sample Output:
+1- Toplama
+2- Cikarma
+...
+0- Cikis
+Islem seciniz: 6
+Sayi: 5
+Sonuc: 120

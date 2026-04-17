@@ -1,0 +1,25 @@
+Project Name: Make Triangle With Stars
+
+Project Explanation:
+This program prints a triangle and a diamond shape made of stars using nested loops.
+The triangle is built by increasing the star count per row with leading spaces for alignment.
+The diamond extends the triangle by mirroring it bottom-up for the second half.
+
+Sample Output (n=4):
+Ucgen:
+    *
+   ***
+  *****
+ *******
+*********
+
+Elmas:
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *

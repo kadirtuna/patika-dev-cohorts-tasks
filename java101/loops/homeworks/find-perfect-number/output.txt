@@ -1,0 +1,16 @@
+Project Name: Find Perfect Number
+
+Project Explanation:
+This program takes a number from the user and checks whether it is a perfect number.
+A perfect number is one whose sum of positive divisors (excluding itself) equals the number itself.
+It uses a loop to find all divisors, sums them up, and compares the result to the original number.
+
+Sample Output:
+Bir sayi giriniz: 28
+28 mukemmel sayidir.
+
+Bir sayi giriniz: 1
+1 mukemmel sayi degildir.
+
+Bir sayi giriniz: 496
+496 mukemmel sayidir.

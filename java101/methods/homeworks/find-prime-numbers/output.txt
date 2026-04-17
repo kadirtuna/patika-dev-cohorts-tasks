@@ -1,0 +1,13 @@
+Project Name: Find Prime Numbers
+
+Project Explanation:
+This program checks whether a user-entered number is prime using a recursive method.
+The recursive method tests divisibility starting from 2 up to the square root of the number.
+If no divisor is found, the number is declared prime.
+
+Sample Output:
+Sayi giriniz: 17
+17 sayisi ASALDIR!
+
+Sayi giriniz: 22
+22 sayisi ASAL degildir!

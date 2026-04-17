@@ -1,0 +1,13 @@
+Project Name: Make Inverted Triangle
+
+Project Explanation:
+This program takes a step count from the user and prints an inverted triangle made of stars using loops.
+Each row has 2*i-1 stars where i decreases from n down to 1, forming the inverted triangle shape.
+
+Sample Output:
+Basamak sayisini giriniz: 5
+*********
+*******
+*****
+***
+*

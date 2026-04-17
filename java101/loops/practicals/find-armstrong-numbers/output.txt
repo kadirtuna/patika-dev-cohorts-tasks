@@ -1,0 +1,15 @@
+Project Name: Find Armstrong Numbers
+
+Project Explanation:
+This program checks whether a given number is an Armstrong number.
+An Armstrong number is one where the sum of each digit raised to the power of the total digit count equals the number itself.
+As a bonus, it also calculates and prints the sum of the digits of the entered number.
+
+Sample Output:
+Sayi giriniz: 407
+407 bir Armstrong sayisidir.
+407 sayisinin basamak toplami: 11
+
+Sayi giriniz: 1342
+1342 bir Armstrong sayisi degildir.
+1342 sayisinin basamak toplami: 10

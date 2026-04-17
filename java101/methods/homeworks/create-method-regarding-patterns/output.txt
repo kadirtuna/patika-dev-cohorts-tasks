@@ -1,0 +1,13 @@
+Project Name: Create Method Regarding Patterns
+
+Project Explanation:
+This program uses a recursive method to subtract 5 from a number until it reaches 0 or below, printing each value.
+Then as the recursion unwinds, it prints the values again in reverse (adding back 5 each time).
+This demonstrates the call stack behavior of recursive methods.
+
+Sample Output:
+N sayisini giriniz: 16
+16 11 6 1 -4 1 6 11 16
+
+N sayisini giriniz: 25
+25 20 15 10 5 0 5 10 15 20 25

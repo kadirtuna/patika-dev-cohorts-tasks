@@ -1,0 +1,17 @@
+Project Name: ATM Project
+
+Project Explanation:
+This program simulates a basic ATM system using loops and switch-case.
+The user has 3 attempts to log in with the correct username and password.
+After login, the user can deposit money, withdraw money, or check their balance until they choose to exit.
+
+Sample Output:
+Kullanici Adiniz: patika
+Parolaniz: dev123
+Merhaba, Kodluyoruz Bankasina Hosgeldiniz!
+1- Para yatirma
+2- Para Cekme
+3- Bakiye Sorgula
+4- Cikis Yap
+Lutfen yapmak istediginiz islemi seciniz: 3
+Bakiyeniz: 1500

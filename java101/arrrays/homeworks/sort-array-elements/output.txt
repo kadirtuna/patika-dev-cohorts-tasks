@@ -1,0 +1,15 @@
+Project Name: Sort Array Elements
+
+Project Explanation:
+This program takes an array size and its elements from the user, then sorts them in ascending order using Bubble Sort.
+It repeatedly swaps adjacent elements that are out of order until the entire array is sorted.
+
+Sample Output:
+Dizinin boyutu n: 5
+Dizinin elemanlarini giriniz:
+1. Elemani: 99
+2. Elemani: -2
+3. Elemani: -2121
+4. Elemani: 1
+5. Elemani: 0
+Siralama: -2121 -2 0 1 99

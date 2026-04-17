@@ -1,0 +1,16 @@
+Project Name: Student Information System
+
+Project Explanation:
+This project models a student grade system with Student, Course, and Teacher classes.
+Each course supports both exam notes and oral notes, with configurable oral weight percentage affecting the final grade.
+The system calculates each student's weighted average and determines if they pass (average > 55).
+
+Sample Output:
+Islem basarili.
+=========================
+Ogrenci: Inek Saban
+Matematik Notu: 54.0
+Fizik Notu: 28.0
+Kimya Notu: 64.0
+Ortalama: 48.666...
+Sinifta Kaldi.

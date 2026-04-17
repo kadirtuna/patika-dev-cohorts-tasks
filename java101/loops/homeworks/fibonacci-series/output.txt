@@ -1,0 +1,10 @@
+Project Name: Fibonacci Series
+
+Project Explanation:
+This program takes a number n from the user and prints the first n elements of the Fibonacci series.
+The Fibonacci series starts with 0 and 1, and each subsequent number is the sum of the two preceding ones.
+The program uses a loop to calculate and display the series iteratively.
+
+Sample Output:
+Fibonacci serisinin eleman sayısını giriniz: 9
+9 Elemanlı Fibonacci Serisi : 0 1 1 2 3 5 8 13 21

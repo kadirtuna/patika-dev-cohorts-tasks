@@ -1,0 +1,16 @@
+Project Name: Box Game
+
+Project Explanation:
+This program simulates a boxing match between two fighters using Java classes.
+Each fighter has health, damage, weight, and a dodge chance. The Ring class manages the match logic.
+As a homework addition, a 50% random chance decides which fighter attacks first each match.
+
+Sample Output:
+Ilk vuracak: Marc
+======== YENI ROUND ===========
+------------
+Marc => Alex 15 hasar vurdu.
+------------
+Alex => Marc 10 hasar vurdu.
+...
+Maci Kazanan: Marc

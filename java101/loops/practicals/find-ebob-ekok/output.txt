@@ -1,0 +1,12 @@
+Project Name: Find EBOB EKOK (GCD LCM)
+
+Project Explanation:
+This program takes two numbers from the user and calculates their GCD (EBOB) and LCM (EKOK).
+GCD is found using the Euclidean algorithm with a while loop.
+LCM is then calculated using the formula: LCM = (n1 * n2) / GCD.
+
+Sample Output:
+Birinci sayiyi giriniz: 18
+Ikinci sayiyi giriniz: 24
+EBOB: 6
+EKOK: 72
